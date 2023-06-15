@@ -1,0 +1,95 @@
+<!-- Add your content of header -->
+<header class="">
+    <div class="navbar navbar-default visible-xs">
+        <button type="button" class="navbar-toggle collapsed">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a href="./index.html" class="navbar-brand">Bad Movie Night</a>
+    </div>
+
+    <nav class="sidebar">
+        <div class="navbar-collapse" id="navbar-collapse">
+            <div class="site-header hidden-xs">
+                <a class="site-brand" href="./index.html" title="">
+                    <img class="img-responsive site-logo" alt="" src="~../../assets/images/mnPoster.png">
+                    Bad Movie Night
+                </a>
+                <p>List of all the movies seen on the movie night chat.</p>
+            </div>
+            <ul class="nav">
+                <li><a (click)="changePage('home')" title="">Movie List</a></li>
+                <!-- <li><a (click)="changePage('best')" title="">Top 10 Best</a></li>
+                <li><a (click)="changePage('worse')" title="">Top 10 worse</a></li> -->
+
+            </ul>
+
+            <nav class="nav-footer">
+                <p class="nav-footer-social-buttons">
+                    <a class="fa-icon" href="https://www.instagram.com/" title="" target="_blank">
+                        <i class="fa fa-instagram"></i>
+                    </a>
+                    <a class="fa-icon" href="https://twitter.com/" title="" target="_blank">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </p>
+            </nav>
+        </div>
+    </nav>
+</header>
+<main class="" id="main-collapse">
+
+    <!-- Add your site or app content here -->
+    <div *ngIf="selectedPage==='home'" class="hero-full-wrapper">
+        <div class="grid">
+            <div class="grid-item" *ngFor="let item of movieList; index as i;">
+                <img class="img-responsive" alt="" src="{{item.movieImage}}" >
+                <a href="{{item.movieDescription}}" target="_blank" class="project-description">
+                    <div class="project-text-holder">
+                        <div class="project-text-inner">
+                            <h3>{{totalTasks-i}}) {{item.movieTitle}}</h3>
+                            <p>Discover more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+     <!-- Add your site or app content here -->
+     <!-- <div *ngIf="selectedPage==='best'" class="hero-full-wrapper">
+        <div class="grid">
+            <div class="grid-item" *ngFor="let item of top10Best; index as i;">
+                <img class="img-responsive" alt="" src="{{item.movieImage}}" >
+                <a href="{{item.movieDescription}}" target="_blank" class="project-description">
+                    <div class="project-text-holder">
+                        <div class="project-text-inner">
+                            <h3>{{10-i}}) {{item.movieTitle}}</h3>
+                            <p>Discover more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div> -->
+
+     <!-- Add your site or app content here -->
+     <!-- <div *ngIf="selectedPage==='worse'" class="hero-full-wrapper">
+        <div class="grid">
+            <div class="grid-item" *ngFor="let item of top10Worse; index as i;">
+                <img class="img-responsive" alt="" src="{{item.movieImage}}" >
+                <a href="{{item.movieDescription}}" target="_blank" class="project-description">
+                    <div class="project-text-holder">
+                        <div class="project-text-inner">
+                            <h3>{{10-i}}) {{item.movieTitle}}</h3>
+                            <p>Discover more</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div> -->
+
+</main>

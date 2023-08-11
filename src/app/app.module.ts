@@ -12,11 +12,14 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 
 import {CdkAccordionModule} from '@angular/cdk/accordion';
+import {MatDialogModule } from '@angular/material/dialog';
+import { PopUpComponent } from './pop-up/pop-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainPageComponent,
+    PopUpComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,7 +29,9 @@ import {CdkAccordionModule} from '@angular/cdk/accordion';
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
-    CdkAccordionModule
+    MatDialogModule,
+    CdkAccordionModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

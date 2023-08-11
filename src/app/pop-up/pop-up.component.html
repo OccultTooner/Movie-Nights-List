@@ -1,0 +1,10 @@
+<button class="btn btn-primary" (click)="closeDialog()">X</button>
+<br>
+<a href="{{link}}" target="_blank" class="project-description">IMBD link</a>
+
+<div class="modalSpecs">
+    <div *ngFor="let item of userReview; index as i;">
+        <h2>{{item.user}}</h2>
+        <p>{{item.review}}</p>
+    </div>
+</div>

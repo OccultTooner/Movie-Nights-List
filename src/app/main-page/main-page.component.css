@@ -1,3 +1,7 @@
 .sidebar{
     background-color: grey;
 }
+
+.site-logo{
+    border-radius: 50%;
+}

@@ -162,6 +162,56 @@ export class MainPageComponent implements OnInit {
       movieTitle: "Arthur and the Invisibles",
       movieDescription: "https://www.imdb.com/title/tt0344854/",
       userReview: [
+        { user: 'Tooner', review: 'snoop dog is in it 10/10.' },
+        { user: 'cheese', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mauris egestas, aliquet enim ut, mollis tellus. Vestibulum tempor dictum finibus. Ut lacus dolor, tempus et congue euismod, placerat eget velit. Cras consequat leo tempus arcu hendrerit consectetur. Donec laoreet quam nec venenatis efficitur. Sed condimentum congue finibus. Praesent egestas elit ac odio sodales ullamcorper. In sodales, neque sit amet malesuada molestie, mi nisl facilisis risus, nec vestibulum felis purus id purus. Maecenas in ornare tellus, vitae tempor elit. Sed molestie, lorem sed tincidunt condimentum, augue velit posuere urna, in efficitur libero purus ac orci. Vestibulum dolor odio, feugiat eu leo eu, pharetra sodales sem.' },
+        { user: 'rusalochka', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mauris egestas, aliquet enim ut, mollis tellus. Vestibulum tempor dictum finibus. Ut lacus dolor, tempus et congue euismod, placerat eget velit. Cras consequat leo tempus arcu hendrerit consectetur. Donec laoreet quam nec venenatis efficitur. Sed condimentum congue finibus. Praesent egestas elit ac odio sodales ullamcorper. In sodales, neque sit amet malesuada molestie, mi nisl facilisis risus, nec vestibulum felis purus id purus. Maecenas in ornare tellus, vitae tempor elit. Sed molestie, lorem sed tincidunt condimentum, augue velit posuere urna, in efficitur libero purus ac orci. Vestibulum dolor odio, feugiat eu leo eu, pharetra sodales sem.' },
+        { user: 'auggie', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mauris egestas, aliquet enim ut, mollis tellus. Vestibulum tempor dictum finibus. Ut lacus dolor, tempus et congue euismod, placerat eget velit. Cras consequat leo tempus arcu hendrerit consectetur. Donec laoreet quam nec venenatis efficitur. Sed condimentum congue finibus. Praesent egestas elit ac odio sodales ullamcorper. In sodales, neque sit amet malesuada molestie, mi nisl facilisis risus, nec vestibulum felis purus id purus. Maecenas in ornare tellus, vitae tempor elit. Sed molestie, lorem sed tincidunt condimentum, augue velit posuere urna, in efficitur libero purus ac orci. Vestibulum dolor odio, feugiat eu leo eu, pharetra sodales sem.' },
+        { user: 'Ivoxus', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mauris egestas, aliquet enim ut, mollis tellus. Vestibulum tempor dictum finibus. Ut lacus dolor, tempus et congue euismod, placerat eget velit. Cras consequat leo tempus arcu hendrerit consectetur. Donec laoreet quam nec venenatis efficitur. Sed condimentum congue finibus. Praesent egestas elit ac odio sodales ullamcorper. In sodales, neque sit amet malesuada molestie, mi nisl facilisis risus, nec vestibulum felis purus id purus. Maecenas in ornare tellus, vitae tempor elit. Sed molestie, lorem sed tincidunt condimentum, augue velit posuere urna, in efficitur libero purus ac orci. Vestibulum dolor odio, feugiat eu leo eu, pharetra sodales sem.' },
+        { user: 'Mellieebee', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mauris egestas, aliquet enim ut, mollis tellus. Vestibulum tempor dictum finibus. Ut lacus dolor, tempus et congue euismod, placerat eget velit. Cras consequat leo tempus arcu hendrerit consectetur. Donec laoreet quam nec venenatis efficitur. Sed condimentum congue finibus. Praesent egestas elit ac odio sodales ullamcorper. In sodales, neque sit amet malesuada molestie, mi nisl facilisis risus, nec vestibulum felis purus id purus. Maecenas in ornare tellus, vitae tempor elit. Sed molestie, lorem sed tincidunt condimentum, augue velit posuere urna, in efficitur libero purus ac orci. Vestibulum dolor odio, feugiat eu leo eu, pharetra sodales sem.' },
+        { user: 'LetSeeBlood!!', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mauris egestas, aliquet enim ut, mollis tellus. Vestibulum tempor dictum finibus. Ut lacus dolor, tempus et congue euismod, placerat eget velit. Cras consequat leo tempus arcu hendrerit consectetur. Donec laoreet quam nec venenatis efficitur. Sed condimentum congue finibus. Praesent egestas elit ac odio sodales ullamcorper. In sodales, neque sit amet malesuada molestie, mi nisl facilisis risus, nec vestibulum felis purus id purus. Maecenas in ornare tellus, vitae tempor elit. Sed molestie, lorem sed tincidunt condimentum, augue velit posuere urna, in efficitur libero purus ac orci. Vestibulum dolor odio, feugiat eu leo eu, pharetra sodales sem.' }
+
+      ]
+    },
+
+    {
+      movieImage: "~../../assets/images/wobblebug.jpg",
+      movieTitle: "The Wogglebug and Sylvie and the Enchanted Forest",
+      movieDescription: "https://www.imdb.com/title/tt3750768/",
+      userReview: [
+        { user: 'Tooner', review: 'awful, regret suggesting it. couldnt finish it.' },
+        { user: 'cheese', review: 'awful boring movie.' },
+        { user: 'rusalochka', review: 'wogglebug production lore is way more interesting.' },
+
+      ]
+    },
+    {
+      movieImage: "~../../assets/images/catsp.jpg",
+      movieTitle: "cinderella secret prince",
+      movieDescription: "https://www.imdb.com/title/tt6241270/",
+      userReview: [
+        { user: 'Tooner', review: 'Bad but funny rat yaoi joke.' },
+        { user: 'cheese', review: 'boring.' },
+        { user: 'rusalochka', review: 'RAT YAOI.' },
+      ]
+    },
+    {
+      movieImage: "~../../assets/images/Rock_Dog.jpg",
+      movieTitle: "Rock Dog",
+      movieDescription: "https://www.imdb.com/title/tt2822672/",
+      userReview: [
+        { user: 'Tooner', review: 'was drawing through it but noticibly mid, kinda scattered focus.' },
+        { user: 'cheese', review: 'Mid movie.' },
+        { user: 'rusalochka', review: 'awful.' },
+        { user: 'Ivoxus', review: 'likes it.' },
+        { user: 'Mellieebee', review: 'it was okay.' },
+
+      ]
+    },
+    {
+      movieImage: "~../../assets/images/Paws_of_Fury.jpg",
+      movieTitle: "Paws of Fury: The Legend of Hank",
+      movieDescription: "https://www.imdb.com/title/tt4428398/",
+      userReview: [
         { user: 'Tooner', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mauris egestas, aliquet enim ut, mollis tellus. Vestibulum tempor dictum finibus. Ut lacus dolor, tempus et congue euismod, placerat eget velit. Cras consequat leo tempus arcu hendrerit consectetur. Donec laoreet quam nec venenatis efficitur. Sed condimentum congue finibus. Praesent egestas elit ac odio sodales ullamcorper. In sodales, neque sit amet malesuada molestie, mi nisl facilisis risus, nec vestibulum felis purus id purus. Maecenas in ornare tellus, vitae tempor elit. Sed molestie, lorem sed tincidunt condimentum, augue velit posuere urna, in efficitur libero purus ac orci. Vestibulum dolor odio, feugiat eu leo eu, pharetra sodales sem.' },
         { user: 'cheese', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mauris egestas, aliquet enim ut, mollis tellus. Vestibulum tempor dictum finibus. Ut lacus dolor, tempus et congue euismod, placerat eget velit. Cras consequat leo tempus arcu hendrerit consectetur. Donec laoreet quam nec venenatis efficitur. Sed condimentum congue finibus. Praesent egestas elit ac odio sodales ullamcorper. In sodales, neque sit amet malesuada molestie, mi nisl facilisis risus, nec vestibulum felis purus id purus. Maecenas in ornare tellus, vitae tempor elit. Sed molestie, lorem sed tincidunt condimentum, augue velit posuere urna, in efficitur libero purus ac orci. Vestibulum dolor odio, feugiat eu leo eu, pharetra sodales sem.' },
         { user: 'rusalochka', review: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac mauris egestas, aliquet enim ut, mollis tellus. Vestibulum tempor dictum finibus. Ut lacus dolor, tempus et congue euismod, placerat eget velit. Cras consequat leo tempus arcu hendrerit consectetur. Donec laoreet quam nec venenatis efficitur. Sed condimentum congue finibus. Praesent egestas elit ac odio sodales ullamcorper. In sodales, neque sit amet malesuada molestie, mi nisl facilisis risus, nec vestibulum felis purus id purus. Maecenas in ornare tellus, vitae tempor elit. Sed molestie, lorem sed tincidunt condimentum, augue velit posuere urna, in efficitur libero purus ac orci. Vestibulum dolor odio, feugiat eu leo eu, pharetra sodales sem.' },
@@ -173,7 +223,7 @@ export class MainPageComponent implements OnInit {
       ]
     },
   ]
-    
+
   totalTasks = 0;
 
   top10Best: any = [];
@@ -201,9 +251,9 @@ export class MainPageComponent implements OnInit {
     this.selectedPage = pageName
   }
 
-  openDialog(theData: { user: string; review: string; }[], imbdLink:string) {
+  openDialog(theData: { user: string; review: string; }[], imbdLink: string) {
     this.dialogRef.open(PopUpComponent, {
-      data: {theData, imbd:imbdLink}
+      data: { theData, imbd: imbdLink }
     });
   }
 
